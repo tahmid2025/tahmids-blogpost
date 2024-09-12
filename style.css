@@ -1,13 +1,44 @@
 body{
     margin: 0px;
+
 }
 
-
-#Tahmids {
-    font-family:'Great Vibes'
+body>header{
+    display: flex; /* Aligns children (h1 and div) in a row */
+    justify-content: center; /* Center both elements horizontally */
+    align-items: center; /* Align them vertically in case of different heights */
+    gap: 10vw ; /* Adds space between the two elements */
     
 }
 
-.Header{
-    font-family:'Fredoka One'
+h1{
+    margin: 0px;
+    padding-bottom: 0px;
+
 }
+
+#FootballImage{
+    background-image: url('football.jpeg'); /* Sets the background image */
+    background-size: 30vw; /* Adjusts the image to cover the entire header */
+    background-position:55% 100%; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    text-align: center; /* Centers the text */
+    padding-top:10vh ; /* Adjusts padding as needed */
+    width: 50vw; /* Set width */
+    
+    
+   
+}
+
+#MainHeader{
+    background-image: url('Logo.jpeg'); /* Sets the background image */
+    background-size: 30vw; /* Adjusts the image to cover the entire header */
+    background-position:45% 100%; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    text-align: center; /* Centers the text */
+    padding-top:10vh ; /* Adjusts padding as needed */
+    width: 50vw; /* Set width */
+    
+}
+
+
