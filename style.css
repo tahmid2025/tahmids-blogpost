@@ -105,9 +105,37 @@ Body>main{
 }
 
 h2{
+    margin:0px;
     font-family: "Fredoka One";
     font-size: 5vh;
    
+}
+
+footer{
+    margin: 0px;
+    background-color: aquamarine;
+}
+
+h3{
+    margin: 0px;
+    padding-bottom: 9vh;
+    text-align: center;    
+}
+
+form{
+    text-align: center;
+    padding-bottom: 9vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 300px; /* Set a width for the form */
+    padding: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 

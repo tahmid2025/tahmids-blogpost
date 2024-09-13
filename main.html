@@ -42,7 +42,7 @@
         <article>
             <p>
                 Footballers across Europe’s top leagues are playing an abundant number of games when taking international fixtures into consideration, as well as pre-season friendlies.
-                <br>
+                <br> <!-- this creates a line breaker-->
                 <br>
                 A top footballer earns on average £50000-£60000 pounds per game played. For a footballer playing 50+ games a season for club and country, they would receive a rather bountiful £2,500,000-£3,000,000 a year for their efforts. However, if the same footballer played 40 games a season for the same amount per game, their yearly salary goes down.
                 <br>
@@ -85,8 +85,30 @@
 
     <footer>
         <h3>
-            thank you for reading Tahmids daily news,sign up to be notified for the next article
+            Thank you for reading Tahmids daily news,sign up to be notified for the next article
         </h3>
+
+
+        <form action="" method=""><!-- The <form> tag creates a form for user input-->
+        
+            <label class="form group" id="main-label" for="First_name">First name</label>
+            <input class="form group" type="text" id="First_name" name="First_name" required>
+            <br> 
+
+            <label class="form group" for="Last_name">Last name</label>
+            <input class="form group" type="text" id="Last_name" name="Last_name" required>
+            <br>
+
+            <label class="form group" for="email">email</label>
+            <input class="form group" type="email" name="email" id="email" required>
+            <br>
+
+            <label class="form group" for="password">password</label>
+            <input class="form group" type="password" name="password" id="password" required>
+            <br>
+
+            <input type="submit" value="submit"> <!-- this creates a button which will show submit-->
+
 
 
 
