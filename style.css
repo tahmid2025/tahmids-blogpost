@@ -1,6 +1,5 @@
 body{
     margin: 0px;
-
 }
 
 body>header{
@@ -9,6 +8,15 @@ body>header{
     align-items: center; /* Align them vertically in case of different heights */
     gap: 10vw ; /* Adds space between the two elements */
     
+}
+
+/* Custom scroll bar styling for webkit browsers */
+body > main::-webkit-scrollbar {
+    width: 15px;
+}
+
+body > main::-webkit-scrollbar-thumb {
+    background: #a81515;
 }
 
 h1{
@@ -68,9 +76,9 @@ h1{
 #MainNav > li:not(:last-child)::after {
     content: "|"; 
     position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    right: 0vw;
+    top: 0vh;
+    bottom:0vh;
     color: #ccc; 
 }
 
@@ -86,7 +94,20 @@ h1{
 /* Link Hover Style */
 .list:hover {
     background-color: #2cc975; 
-    padding: 0.5vw 0.5vh;
+    padding: 0.5vw;
+}
+
+
+Body>main{
+    margin-left: 27vw;
+    margin-right: 25vw;
+
+}
+
+h2{
+    font-family: "Fredoka One";
+    font-size: 5vh;
+   
 }
 
 
